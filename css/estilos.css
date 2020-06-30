@@ -161,11 +161,13 @@ footer a:hover{
 .sobremi h1{
     font-size: 55px !important;
     font-weight: 700 !important;
+    padding-bottom: 30px;
 }
 .sobremi h2{
     font-size: 22px !important;
     line-height: 30px;
     font-weight: 200 !important;
+
    
 }
 .sobremi .perfil{
@@ -184,9 +186,24 @@ footer a:hover{
     margin:5px 0px;
     padding:0px 15px;
 }
-.sobremi .bg-black{
-    background-color: #4b4b4b;
+.experiencia{
+    background-color:#4b4b4b;
     color: white;
+    margin:20px 20px;
+}
+.experiencia  h2{
+    font-size: 45px !important ;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top:10px;
+}
+.experiencia  h3{
+    font-size: 20px !important ;
+    padding:0px 10px;
+
+}
+.experiencia h4{
+    font-size: 18px !important ;
 }
 @media (max-width:700px){
     .sobremi .perfil{
