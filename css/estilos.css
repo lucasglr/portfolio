@@ -29,6 +29,7 @@ nav{
     background-color: #eee;
     border: none;
     border-bottom: 1px solid black;
+    border-radius: 0%;
 
 
 }
@@ -43,14 +44,18 @@ nav{
 }
 #contacto h1{
     font-weight: 800;
-    font-size:55px ;
+    font-size:45px ;
     
 }
 
 #contacto h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     line-height:44px;
+}
+#contacto .btn{
+    background-color: black;
+    color: white;
 }
 
 @media (max-width:700px){
@@ -88,11 +93,11 @@ footer a:hover{
     color:#007bff !important;
 }
 .proyecto h1{
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 800;
 }
 .proyecto h2{
-    font-size:30px;
+    font-size:25px;
     font-weight: 200px;
 }
 .proyecto .bg-black{
@@ -100,7 +105,7 @@ footer a:hover{
     
 }
 .proyecto img{
-    height:335px;
+    height:250px;
     width: 100%;
 }
 .proyecto .p1{
