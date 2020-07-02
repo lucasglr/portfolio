@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contacto</title>
+    <title>inicio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet"
@@ -19,83 +19,46 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid" id="home">
+        <div class="container">
             <nav class="navbar navbar-expand-sm navbar-dark">
-                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler " type="button" data-toggle="collapse"
+                    data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-    
+
                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item ">
-                            <a class="nav-link" href="index.html">INICIO</a>
+                            <a class="nav-link active" href="index.php">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sobremi.html">SOBRE MÍ</a>
+                            <a class="nav-link " href="sobremi.php">SOBRE MÍ</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="proyecto.php">PROYECTOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="proyecto.html">PROYECTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contacto.html">CONTACTO</a>
+                            <a class="nav-link " href="contacto.php">CONTACTO</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
+        <section class="inicio">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Hola! <br>
+                            Bienvenido a mi web</h1>
+                        <h2>Lucas Gaston Lopez Requena</h2>
+                        <a href="">Conoce mis proyectos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-    <section id="contacto">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 my-5 ">
-                    <h1>¡Trabajemos juntos! </h1>
-                </div>
-            </div>
-            <div class="row mb-5 ">
-                <div class="col-sm-5 col-12 ">
-                    <h2>Para más detalles sobre mi
-                        trabajo podés ver mi <u>Linkedin</u>,
-                        descargar mi <u>CV</u> o mandarme
-                        un <u>mensaje</u>.
-                    </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <form action="" method="POST">
-                        <div class="row">
-                            <div class="my-2 col-sm-6 col-12 mx-sm-0 ">
-                                <input type="text" class="form-control" placeholder="NOMBRE">
-                            </div>
-                            <div class="my-2 col-sm-6 col-12 mx-sm-0 ">
-                                <input type="email" class="form-control" placeholder="CORREO">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="my-2 col-12 mx-sm-0 ">
-                                <input type="text" class="form-control" placeholder="ASUNTO">
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="my-2 col-12 mx-sm-0">
-
-                                <textarea class="form-control" placeholder="MENSAJE" cols="30" rows="10"></textarea>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="my-2 mx-auto">
-                                <button type="submit" class="btn ">ENVIAR</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-
-    </section>
     <footer>
         <div class="container">
             <div class="row mx-3 mt-4">
@@ -125,7 +88,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
