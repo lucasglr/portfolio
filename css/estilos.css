@@ -87,7 +87,7 @@ footer .redes{
     text-align: center;
     border: 1px solid;
     border-radius: 80px;
-    color: black;
+    
 }
 footer a:hover{
     color:#007bff !important;
@@ -201,7 +201,7 @@ footer a:hover{
     border-radius: 0px;
 }
 .experiencia{
-    background-color:#1f1f1f;
+    background-color:#3a3a3a;
     color: white;
     margin:20px 0px;
 }
