@@ -57,7 +57,7 @@
                         proactivo, responsable y
                         comprometido con metas y
                         desafíos.”</h2>
-                    <a href="" class="btn mt-3">Descargar CV</a>
+                    <a href="files/Cv Lopez Lucas.pdf" class="btn mt-3" target="_blank">Descargar CV</a>
                 </div>
                 <div class="col-sm-6 col-12 text-center ">
                     <img src="imagenes/IMG_20181104_205333_584.jpg" alt="LucasLopez" class="img-fluid perfil">
@@ -303,7 +303,7 @@
                 </div>
                 <div class="col-sm-7 text-left">
                     <h4>Jefe de Calidad y Laboratorio . Responsable del sistema de calidad ISO 9001:2015. Coordinador de
-                        inspecciones con YPF. Ensayos de aprobación de materias prima y producción
+                        inspecciones con YPF. Ensayos de aprobación de materias prima y producción.
                         Soporte a la gerencia.
                         Coordinación con logística para despacho de producto final.
                         Planificación de producción con Jefe de Planta.

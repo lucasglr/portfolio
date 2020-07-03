@@ -218,8 +218,9 @@ footer a:hover{
 
 }
 .experiencia h4{
-    font-size: 18px !important ;
+    font-size: 18px !important;
     line-height: 27px;
+    font-weight: normal;
 }
 .experiencia img{
     width: 120px;
