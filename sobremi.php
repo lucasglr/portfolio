@@ -227,6 +227,62 @@
                         </div>
                     </div>
                 </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 p-2">
+                    <div class="bg-white ">
+                        <div class="row">
+                            <div class="col-12">
+                                <i class="fas fa-award"></i>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <h3>LOGROS</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p>2019 Ampliación del alcance de sistema de gestión de calidad
+                                certificado por Bureau Veritas.</p>
+                                <p>2011 Primer Premio proyecto institucional AUTOMATIZACIÓN POR
+                                P.L.C. por proyecto ECO-WASH.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 p-2">
+                    <div class="bg-white">
+                        <div class="row">
+                            <div class="col-12">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <h3>CURSOS</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p>Curso de MOOC OIL & Gas desarrollado por IFP School y Fundación
+                                YPF
+                                </p> 
+                                <p>CURSO DE AUDITOR INTERNO SISTEMA DE GESTIÓN DE CALIDAD <br>
+                                    Curso de Auditor Interno Sistema de Gestión de Calidad aplicando
+                                    las normas ISO 9001:2015, ISO 14001:2004, ISO 19011:2011 Y OSHA
+                                    18001;
+                                </p>
+                                <p>AUTOMATIZACIÓN POR P.L.C / 2011 <br> Asistencia y aprobación del
+                                    curso de AUTOMATIZACIÓN POR P.L.C desarrollado por SIEMENS S.A.
+                                    Argentina
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -277,7 +333,7 @@
         </div>
     </section>
     <footer>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row mx-3 mt-4">
                 <div class="col-12 col-sm-4 my-4 text-sm-left text-center ">
                     <a href="#"><i class="fas fa-copyright fa-1x"></i> Todos los derechos reservados <br> 2020 </a>
