@@ -43,8 +43,8 @@ nav{
     
 }
 #contacto h1{
-    font-weight: 800;
-    font-size:45px ;
+    font-weight: 700;
+    font-size:55px ;
     
 }
 
@@ -100,8 +100,8 @@ footer a:hover{
     }
 }
 .proyecto h1{
-    font-size: 45px;
-    font-weight: 800;
+    font-size: 55px;
+    font-weight: 700;
 }
 .proyecto h2{
     font-size:25px;
@@ -154,7 +154,7 @@ footer a:hover{
 .sobremi h1{
     font-size: 55px !important;
     font-weight: 700 !important;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .sobremi h2{
     font-size: 22px !important;
