@@ -297,7 +297,7 @@
                     <h3>2019-ACTUALMENTE <br>
                         Patagonia Shale Services</h3>
                 </div>
-                <div class="col-sm-2 col-12 text-center text-sm-left">
+                <div class="col-sm-2 col-12 text-center ">
                     <img src="imagenes/pss.png" alt="pss" class="img-fluid">
                 </div>
                 <div class="col-sm-7 text-left">
@@ -315,9 +315,10 @@
                 <div class="col-sm-3 col-12 text-center text-sm-left">
                     <h3>2011 <br>
                         Electricidad Industrial <br>
-                        MetalSul        
+                        MetalSul 
+                    </h3>       
                 </div>
-                <div class="col-sm-2 col-12 text-center text-sm-left">
+                <div class="col-sm-2 col-12 text-center pr-4 pt-3">
                     <i class="fas fa-bolt"></i>
                 </div>
                 <div class="col-sm-7 text-left">
