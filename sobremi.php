@@ -298,7 +298,7 @@
                         Patagonia Shale Services</h3>
                 </div>
                 <div class="col-sm-2 col-12 text-center ">
-                    <img src="imagenes/pss.png" alt="pss" class="img-fluid">
+                    <img src="imagenes/pss.jpg" alt="pss" class="img-fluid">
                 </div>
                 <div class="col-sm-7 text-left">
                     <h4>Jefe de Calidad y Laboratorio . Responsable del sistema de calidad ISO 9001:2015. Coordinador de
