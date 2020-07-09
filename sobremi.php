@@ -1,3 +1,4 @@
+<?php $pg="sobremi";?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,29 +21,9 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-sm navbar-dark">
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="index.php">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="sobremi.php">SOBRE MÍ</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link " href="proyecto.php">PROYECTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="contacto.php">CONTACTO</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div class="row">
+            <?php include_once("menu.php");?>
+        </div>
     </div>
     <section class="sobremi">
         <div class="container my-4 mx-auto">
@@ -332,26 +313,7 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="container">
-            <div class="row mx-3 mt-4">
-                <div class="col-12 col-sm-4 my-4 text-sm-left text-center ">
-                    <a href="#"><i class="fas fa-copyright fa-1x"></i> Todos los derechos reservados <br> 2020 </a>
-                </div>
-                <div class="col-12 col-sm-4 my-4 text-center ">
-                    <a href="https://www.linkedin.com/in/lucas-l%C3%B3pez-597a17170/" target="_blank"><i class="fab fa-linkedin-in redes mx-2"></i></a>
-                    <a href="https://wa.link/3bpz2g" target="_blank"><i class="fab fa-whatsapp redes mx-2" ></i></a>
-                    <a href="https://www.instagram.com/lucasglr_92/?hl=es-la" target="_blank"><i class="fab fa-instagram  redes mx-2"></i></a>
-                    <a href="https://github.com/lucasglr" target="_blank"><i class="fab fa-github redes mx-2"></i></a>
-                </div>
-                <div class="col-12 col-sm-4 my-4  text-sm-right text-center">
-                    <p>Patrocinado por <br>
-                        <a href="https://depcsuite.com/">DePC Suite</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include_once("footer.php"); ?>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
