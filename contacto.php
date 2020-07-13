@@ -1,4 +1,73 @@
-<?php $pg="contacto";?>
+<?php $pg="contacto";
+include_once("phpMaile-master/PHPMailer-master/src/PHPMailer.php");
+include_once("phpMaile-master/PHPMailer-master/src/SMTP.php");
+$msg = "";
+
+function guardarCorreo($correo)
+{
+    $archivo = fopen("mails.txt", "a+");
+    fwrite($archivo, $correo . ";\n\r");
+    fclose($archivo);
+}
+
+if ($_POST) { /* es postback */
+
+    $nombre = $_POST["txtNombre"];
+    $correo = $_POST["txtCorreo"];
+    $asunto = $_POST["txtAsunto"];
+    $mensaje = $_POST["txtMensaje"];
+
+    if ($nombre != "" && $correo != "") {
+        guardarCorreo($correo);
+
+        $mail = new PHPMailer();
+        $mail->IsSMTP();
+        $mail->SMTPAuth = true;
+        $mail->Host = "mail.lopezlucas.com.ar"; // SMTP a utilizar. Por ej. mail.dominio.com.ar
+        $mail->Username = "info@lopezlucas.com.ar"; // Correo completo a utilizar
+        $mail->Password = "aqui va la clave de tu correo";
+        $mail->Port = 25;
+        $mail->From = "info@lopezlucas.com.ar"; // Desde donde enviamos (Para mostrar)
+        $mail->FromName = "Lucas Gaston Lopez Requena ";
+        $mail->IsHTML(true);
+        $mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true,
+            ),
+        );
+
+        //Destinatario
+        $mail->addAddress($correo);
+        //$mail->addBCC("lucas-glr@hotmail.com");
+        $mail->Subject = "Contacto página web";
+        $mail->Body = "Recibimos tu consulta, <br>te responderemos a la brevedad.";
+        //  if(!$mail->Send()){
+        //     $msg = "Error al enviar el correo, intente nuevamente mas tarde.";
+        //   }
+        $mail->ClearAllRecipients(); //Borra los destinatarios
+
+        //Nosotros
+        $mail->addAddress("lucas-glr@hotmail.com");
+        $mail->Subject = "Recibiste un mensaje desde tu página web";
+        $mail->Body = "Te escribió $nombre cuyo correo es $correo, con el asunto $asunto y el siguiente mensaje:<br><br>$mensaje";
+
+        if ($mail->Send()) {
+          
+            header('Location: confirmacion-envio.php');
+        } else {
+            $msg = "Error al enviar el correo, intente nuevamente mas tarde.";
+        }
+    } else {
+        $msg = "Complete todos los campos";
+    }
+
+}
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,6 +95,15 @@
         </div>
     </div>
     <section id="contacto">
+        <?php if (isset($msg) && $msg != ""): ?>
+        <div class="row">
+            <div class="col-12">
+                <div class="alert alert-danger" role="alert">
+                <?php echo $msg; ?>
+                </div>
+            </div>
+        </div>
+        <?php endif;?>
         <div class="container">
             <div class="row">
                 <div class="col-12 my-5 ">
@@ -46,21 +124,21 @@
                     <form action="" method="POST">
                         <div class="row">
                             <div class="my-2 col-sm-6 col-12 mx-sm-0 ">
-                                <input type="text" class="form-control" placeholder="NOMBRE">
+                                <input type="text" class="form-control" name="txtNombre" placeholder="NOMBRE">
                             </div>
                             <div class="my-2 col-sm-6 col-12 mx-sm-0 ">
-                                <input type="email" class="form-control" placeholder="CORREO">
+                                <input type="email" class="form-control" name="txtCorreo" placeholder="CORREO">
                             </div>
                         </div>
                         <div class="row">
                             <div class="my-2 col-12 mx-sm-0 ">
-                                <input type="text" class="form-control" placeholder="ASUNTO">
+                                <input type="text" class="form-control" name="txtAsunto" placeholder="ASUNTO">
                             </div>
                         </div>
                         <div class="row ">
                             <div class="my-2 col-12 mx-sm-0">
 
-                                <textarea class="form-control" placeholder="MENSAJE" cols="30" rows="10"></textarea>
+                                <textarea class="form-control" placeholder="MENSAJE" name="txtMensaje" cols="30" rows="10"></textarea>
                             </div>
                         </div>
                         <div class="row ">

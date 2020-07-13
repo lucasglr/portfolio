@@ -288,3 +288,14 @@ footer a:hover{
         font-size:20px;
     }
 }
+#reenvio{
+    height: 81vh;
+}
+#reenvio h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+#reenvio h2{
+    font-size: 28px;
+    font-weight: 200;
+}
