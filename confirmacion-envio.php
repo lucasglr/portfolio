@@ -31,7 +31,7 @@
                     <h1>Gracias por <br>
                     Contactarte,
                     </h1>
-                    <h2>te respondere a la brevedad.</h2>
+                    <p>te responderé a la brevedad.</p>
                 </div>
             </div>
         </div>

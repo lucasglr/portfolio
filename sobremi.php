@@ -282,7 +282,7 @@
                     <img src="imagenes/pss.jpg" alt="pss" class="img-fluid">
                 </div>
                 <div class="col-sm-7 text-left">
-                    <h4>Jefe de Calidad y Laboratorio . Responsable del sistema de calidad ISO 9001:2015. Coordinador de
+                    <h4><b>Jefe de Calidad y Laboratorio</b> . Responsable del sistema de calidad ISO 9001:2015. Coordinador de
                         inspecciones con YPF. Ensayos de aprobación de materias prima y producción.
                         Soporte a la gerencia.
                         Coordinación con logística para despacho de producto final.
@@ -290,9 +290,10 @@
                         Análisis de datos, generación de Data book para YPF.
                         Evidenciar y/o registrar las actividades de aseguramiento de
                         calidad según norma EN253, IRAM e ISO. </h4>
+                        <h4><b>Comercial</b>. Busqueda de potenciales cliente para el ofrecimiento de nuevos productos.</h4>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-sm-3 col-12 text-center text-sm-left">
                     <h3>2011 <br>
                         Electricidad Industrial <br>
@@ -303,9 +304,9 @@
                     <i class="fas fa-bolt"></i>
                 </div>
                 <div class="col-sm-7 text-left">
-                    <h4>Realización integra de instalación electricidad
+                    <h4><b>Realización integra de instalación eléctricas
                         trifásica y
-                        monofásica de empresa. (colocación de tablero principal,
+                        monofásica de la empresa.</b> (colocación de tablero principal,
                         conductores, tableros individuales, iluminarias, contactores,
                         reguladores de frecuencia, etc.).
                         Conexión a línea eléctricas de maquinarias. (torno, fresadora, etc.). </h4>
