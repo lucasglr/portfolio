@@ -1,6 +1,12 @@
-<?php $pg="contacto";
-include_once("phpMaile-master/PHPMailer-master/src/PHPMailer.php");
-include_once("phpMaile-master/PHPMailer-master/src/SMTP.php");
+<?php 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$pg = "contacto";
+
+include_once "PHPMailer/src/SMTP.php";
+include_once "PHPMailer/src/PHPMailer.php";
 $msg = "";
 
 function guardarCorreo($correo)

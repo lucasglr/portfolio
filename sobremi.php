@@ -159,7 +159,7 @@
                         </div>
                         <div class="row">
                             <div class="col-12">
-                                <p>Programacion <br>
+                                <p>Programación <br>
                                     Running
                                 </p>
                             </div>
