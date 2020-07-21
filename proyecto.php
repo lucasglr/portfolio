@@ -27,13 +27,13 @@
     </div>
     <section class="proyecto">
         <div class="container">
-            <div class="row my-sm-4 mt-4">
+            <div class="row mt-sm-4 mt-4">
                 <div class="col-12 ">
                     <h1>Mis Proyectos </h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 my-sm-4 mb-1 mt-3">
+                <div class="col-12  my-3">
                     <h2>Estos son algunos de los trabajos que he realizado:</h2>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                     <div class="bg-white">
                         <div class="row">
                             <div class="col-12">
-                                <img src="imagenes/img1.png" alt="" class="img-fluid">
+                                <img src="imagenes/ambcliente.png" alt="AMB Ventas" class="img-fluid">
                             </div>
                         </div>
                         <div class="row">
@@ -57,10 +57,10 @@
                         </div>
                         <div class="row px-3 py-3">
                             <div class="col-6 ">
-                                <a href="" class="btn">Ver online</a>
+                                <a href="sistema/ABMClientes/" class="btn">Ver online</a>
                             </div>
                             <div class="col-6 text-right">
-                                <a href="">Código fuente</a>
+                                <a href="https://github.com/lucasglr/AMBCliente">Código fuente</a>
                             </div>
                         </div>
         
@@ -70,17 +70,17 @@
                     <div class="bg-white">
                         <div class="row">
                             <div class="col-12">
-                                <img src="imagenes/img1.png" alt="" class="img-fluid">
+                                <img src="imagenes/ambventas.png" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12 ">
-                                <h3>ABM Clientes</h3>
+                                <h3>Sistema de Gestión de ventas</h3>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12 ">
-                                <h4>Alta, Baja, modificación de un registro de clientes empleando:. Realizado en HTML, CSS, PHP, Bootstrap y Json.</h4>
+                                <h4>Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.</h4>
                             </div>
                         </div>
                         <div class="row px-3 py-3">
@@ -124,34 +124,7 @@
         
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 block my-2 my-sm-0">
-                    <div class="bg-white">
-                        <div class="row">
-                            <div class="col-12">
-                                <img src="imagenes/img1.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 ">
-                                <h3>ABM Clientes</h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 ">
-                                <h4>Alta, Baja, modificación de un registro de clientes empleando:. Realizado en HTML, CSS, PHP, Bootstrap y Json.</h4>
-                            </div>
-                        </div>
-                        <div class="row px-3 py-3">
-                            <div class="col-6 ">
-                                <a href="" class="btn">Ver online</a>
-                            </div>
-                            <div class="col-6 text-right">
-                                <a href="">Código fuente</a>
-                            </div>
-                        </div>
-        
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
