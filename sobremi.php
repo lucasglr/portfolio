@@ -28,18 +28,18 @@
     <section class="sobremi">
         <div class="container my-4 mx-auto">
             <div class="row my-5">
-                <div class="col-sm-6 col-12 px-3 ">
+                <div class="col-sm-7 col-12 px-3 ">
                     <h1>Sobre Mí</h1>
                     <h2>Ingeniero Industrial y desarrollador Full Stack, busco desarrollarme profesionalmente, aplicando
-                        mis
-                        conocimientos y adquiriendo
+                        mis conocimientos y adquiriendo
                         nuevos aprendizajes. Soy
                         proactivo, responsable y
                         comprometido con metas y
-                        desafíos.”</h2>
+                        desafíos.”
+                    </h2>    
                     <a href="files/Cv Lopez Lucas.pdf" class="btn mt-3" target="_blank">Descargar CV</a>
                 </div>
-                <div class="col-sm-6 col-12 text-center ">
+                <div class="col-sm-5 col-12 text-center ">
                     <img src="imagenes/IMG_20181104_205333_584.jpg" alt="LucasLopez" class="img-fluid perfil">
                 </div>
             </div>

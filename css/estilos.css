@@ -15,6 +15,17 @@ nav{
     margin: auto;
     
 }
+h1{
+    font-weight: 800;
+    font-size:55px ;
+    
+}
+h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height:44px;
+}
+
 .nav-link:hover{
     text-decoration: underline;
     color:#007bff !important;
@@ -42,17 +53,7 @@ nav{
     min-height: 180px;
     
 }
-#contacto h1{
-    font-weight: 700;
-    font-size:55px ;
-    
-}
 
-#contacto h2{
-    font-size: 25px;
-    font-weight: 600;
-    line-height:44px;
-}
 #contacto .btn{
     background-color: black;
     color: white;
@@ -99,14 +100,7 @@ footer a:hover{
         font-size: 28px;
     }
 }
-.proyecto h1{
-    font-size: 55px;
-    font-weight: 700;
-}
-.proyecto h2{
-    font-size:25px;
-    font-weight: 200px;
-}
+
 .proyecto .bg-black{
     padding:0px 8px;
     
@@ -132,7 +126,7 @@ footer a:hover{
     
     .proyecto h1{
         font-size: 46px;
-        font-weight: 500;
+        font-weight: 700;
     }
     .proyecto h2{
         font-size: 15px;
@@ -150,16 +144,6 @@ footer a:hover{
         width: 126px;
         height: 39px;
     }
-}
-.sobremi h1{
-    font-size: 55px !important;
-    font-weight: 700 !important;
-    padding-bottom: 20px;
-}
-.sobremi h2{
-    font-size: 22px !important;
-    line-height: 30px;
-    font-weight: 500 !important; 
 }
 .sobremi h3{
     font-size: 25px;
@@ -206,11 +190,12 @@ footer a:hover{
     margin:20px 0px;
 }
 .experiencia  h2{
-    font-size: 45px !important ;
-    font-weight: 500;
-    margin-left: 10px;
-    margin-top:10px;
+    
+    color: white;
+    font-size: 45px;
+
 }
+
 .experiencia  h3{
     font-size: 16px !important ;
     padding:0px 10px;
@@ -266,15 +251,7 @@ footer a:hover{
     height: 82vh;
 }
 
-.inicio h1{
-    font-size: 55px;
-    font-weight: 700;
-    padding-bottom: 30px;
-}
-.inicio h2{
-    padding-bottom: 30px;
-    font-size: 21px;
-}
+
 .inicio a{
     background: black;
     color: white;

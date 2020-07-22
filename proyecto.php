@@ -27,7 +27,7 @@
     </div>
     <section class="proyecto">
         <div class="container">
-            <div class="row mt-sm-4 mt-4">
+            <div class="row mt-sm-5 mt-4">
                 <div class="col-12 ">
                     <h1>Mis Proyectos </h1>
                 </div>

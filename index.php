@@ -30,7 +30,7 @@
                         <h1>Hola! <br>
                             Bienvenido a mi web</h1>
                         <h2>Lucas Gaston Lopez Requena</h2>
-                        <a href="proyecto.php">Conoce mis proyectos</a>
+                        <a href="proyecto.php" class="btn mt-3">Conoce mis proyectos</a>
                     </div>
                 </div>
             </div>
