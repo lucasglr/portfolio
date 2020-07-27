@@ -40,7 +40,7 @@
                     <a href="files/Cv Lopez Lucas.pdf" class="btn mt-3" target="_blank">Descargar CV</a>
                 </div>
                 <div class="col-sm-5 col-12 text-center ">
-                    <img src="imagenes/IMG_20181104_205333_584.jpg" alt="LucasLopez" class="img-fluid perfil">
+                    <img src="imagenes/lucas1.png" alt="LucasLopez" class="img-thumbnail img-fluid perfil">
                 </div>
             </div>
             <div class="row">
