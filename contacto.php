@@ -29,9 +29,9 @@ if ($_POST) { /* es postback */
         $mail = new PHPMailer();
         $mail->IsSMTP();
         $mail->SMTPAuth = true;
-        $mail->Host = "mail.lopezlucas.com.ar"; // SMTP a utilizar. Por ej. mail.dominio.com.ar
+        $mail->Host = "info@lopezlucas.com.ar"; // SMTP a utilizar. Por ej. mail.dominio.com.ar
         $mail->Username = "info@lopezlucas.com.ar"; // Correo completo a utilizar
-        $mail->Password = "aqui va la clave de tu correo";
+        $mail->Password = "l36629320";
         $mail->Port = 25;
         $mail->From = "info@lopezlucas.com.ar"; // Desde donde enviamos (Para mostrar)
         $mail->FromName = "Lucas Gaston Lopez Requena ";

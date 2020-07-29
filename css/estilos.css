@@ -36,6 +36,8 @@ h2{
     font-weight: 600 !important;
    
 }
+/*/////////////////////////CONTACTO///////////////////*/
+
 #contacto input , #contacto textarea{
     background-color: #eee;
     border: none;
@@ -59,17 +61,8 @@ h2{
     color: white;
 }
 
-@media (max-width:700px){
-    #contacto h1{
-        font-size:40px;
-    }
-    #contacto h2{
-        font-size:20px;
-    }
-    .nav-link{
-        font-size:16px;
-    }
-}
+
+/*/////////////////////////FOOTER///////////////////*/
 footer {
     background-color: white;
     height:100%;
@@ -93,14 +86,8 @@ footer .redes{
 footer a:hover{
     color:#007bff !important;
 }
-@media (max-width:700px){
-    footer .redes{
-        width: 47px;
-        height: 46px;
-        font-size: 28px;
-    }
-}
 
+/*/////////////////////////MIS PROYECTOS///////////////////*/
 .proyecto .bg-black{
     padding:0px 8px;
     
@@ -122,29 +109,7 @@ footer a:hover{
     border-radius: 0px;
 }
 
-@media (max-width:700px){
-    
-    .proyecto h1{
-        font-size: 46px;
-        font-weight: 700;
-    }
-    .proyecto h2{
-        font-size: 15px;
-    }
-    .proyecto .p1{
-        font-size: 22px;
-    }
-    .proyecto .p2 , .proyecto .p3{
-        font-size: 16px;
-        font-weight:300;
-    }
-
-     .proyecto button{
-        font-size: 12px;
-        width: 126px;
-        height: 39px;
-    }
-}
+/*/////////////////////////SOBRE MÍ//////////////////*/
 .sobremi h3{
     font-size: 25px;
     font-weight: 600;
@@ -184,6 +149,7 @@ footer a:hover{
     background-color: black;
     border-radius: 0px;
 }
+/*/////////////////////////EXPERIENCIA///////////////////*/
 .experiencia{
     background-color:#3a3a3a;
     color: white;
@@ -218,8 +184,47 @@ footer a:hover{
     border: 2px solid;
     border-radius: 50%;
 }
+/*/////////////////////////INICIO///////////////////*/
 
+#home{
+    background-image: url(../imagenes/Fondos-01.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    height: 82vh;
+}
+
+.inicio a{
+    background: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+/*/////////////////////////REENVIO///////////////////*/
+#reenvio{
+    height: 76vh;
+}
+#reenvio h1{
+    font-size: 55px;
+    font-weight: 800;
+}
+#reenvio p{
+    font-size: 28px;
+    font-weight: 200;
+}
 @media (max-width:700px){
+    /*/////NAVEGADOR/////*/
+    .nav-link{
+        font-size:16px;
+    }
+
+    /*/////INICIO/////*/
+    .inicio h1{
+        font-size: 50px;
+    }
+    .inicio h2{
+        font-size:20px;
+    }
+    /*/////SOBRE MI/////*/
     .sobremi .perfil{
         width: 180px;
         height: 250px; 
@@ -228,6 +233,7 @@ footer a:hover{
         margin:5px 0px;
         padding:0px 5px;
     }
+    
     .experiencia h2{
         font-size: 40px !important;
         font-weight: 500;
@@ -243,36 +249,50 @@ footer a:hover{
         padding: 15px 0px;
     }
     
-}
-#home{
-    background-image: url(../imagenes/Fondos-01.png);
-    background-repeat: repeat;
-    background-size: 100%;
-    height: 82vh;
-}
-
-
-.inicio a{
-    background: black;
-    color: white;
-    padding: 10px 20px;
-}
-@media (max-width:700px){
-    .inicio h1{
-        font-size: 50px;
+    /*/////MIS PROYECTOS/////*/
+    .proyecto h1{
+        font-size: 46px;
+        font-weight: 700;
     }
-    .inicio h2{
+    .proyecto h2{
+        font-size: 15px;
+    }
+    .proyecto .p1{
+        font-size: 22px;
+    }
+    .proyecto .p2 , .proyecto .p3{
+        font-size: 16px;
+        font-weight:300;
+    }
+
+    .proyecto button{
+        font-size: 12px;
+        width: 126px;
+        height: 39px;
+    }
+    /*/////CONTACTO/////*/
+    #contacto h1{
+        font-size:40px;
+    }
+    #contacto h2{
         font-size:20px;
     }
-}
-#reenvio{
-    height: 76vh;
-}
-#reenvio h1{
-    font-size: 55px;
-    font-weight: 800;
-}
-#reenvio p{
-    font-size: 28px;
-    font-weight: 200;
+    form {
+        padding-left: 50px;
+    }
+   
+    /*/////FOOTER/////*/
+    footer .redes{
+        width: 47px;
+        height: 46px;
+        font-size: 28px;
+    }
+     /*/////REENVIO/////*/
+    #reenvio h1{
+        font-size: 40px;  
+    }
+    #reenvio p{
+        font-size: 26px;   
+    }
+   
 }
